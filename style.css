@@ -1,0 +1,141 @@
+/* General setup */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+html {
+  font-size: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+h1 {
+  font-size: 3.05rem;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  letter-spacing: 0.5px;
+}
+
+section h2+p {
+  text-indent: 20px;
+}
+
+a:hover,a:visited,a:link,a:focus {
+  color: #a66;
+  text-decoration: solid rgb(137, 241, 255);
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a[href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid #a66;
+}
+
+nav li a:focus, nav li a:hover {
+  color: wheat;
+  background: goldenrod;
+}
+
+nav li a:active {
+  color: gold;
+  background: darkcyan;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+/* <!-- h1,p = fgcybfyvywyj -->
